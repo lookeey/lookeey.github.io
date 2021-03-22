@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200;300;400;500;600;700&display=swap');
+
+:root {
+    --background-c: #f5f5f5;
+    --base-color: #181818;
+}
+
+body {
+    background-color: var(--background-c);
+    color: var(--base-color);
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    margin: 0;
+}
+
+#loading-screen {
+    background-color: var(--background-c);
+    position: fixed;
+    width: 100%;
+    height: 100%
+}
+
+#loading-bomb-container {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    height: 100px
+}
+
+@keyframes rotating {
+    0% { transform: rotate(0); }
+    50% { transform: rotate(180deg); }
+    100% { transform: rotate(360deg); }
+}
+
+#loading-waves {
+    position: fixed;
+    width: 106px;
+    top: 31px;
+    animation: rotating 2s ease-in-out infinite;
+}
+
+#loading-bomb {
+    position: fixed;
+    width: 92px;
+    left: 8px;
+    top: 10px
+}
+
+#loading-flame {
+    position: fixed;
+    width: 21px;
+    left: 9px
+}
+
+.wrapper {
+    height: 100vh;
+    position: relative;
+}
+
+.wrapper .text {
+    padding: 120px 70px;
+}
+
+.wrapper h2 {
+    font-size: 32pt;
+    margin: 0;
+}
+
+.wrapper p {
+    font-size: 16pt;
+}
+
+#bomb-logo {
+    position: absolute;
+    width: 60%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#navbar-top {
+    width: 100%;
+}
+
+#navbar-top a {
+    display: inline;
+    position: absolute;
+    text-decoration: none;
+    color: var(--base-color);
+    font-weight: 500;
+    font-size: 19pt;
+    padding: 35px 0;
+}
+
+#what-btn {
+    left: 30%;
+    transform: translateX(-50%);
+}
+
+#how-btn {
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#where-btn {
+    left: 70%;
+    transform: translateX(-50%);
+}
+
+#what {
+    background-color: #ffffff;
+}
+
+#what img {
+    position: absolute;
+    height: 80%;
+    right: 0;
+    bottom: 0;
+}
+
+#how img {
+    position: absolute;
+    height: 80%;
+    left: 0;
+    bottom: 0;
+}
+
+#how .text {
+    position: absolute;
+    text-align: right;
+    width: 60%;
+    right: 0;
+}
+
+#where {
+    background-color: #ffffff;
+}
+
+#where .text {
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#where h3 {
+    font-size:20pt;
+}
+
+#where a {
+    font-size: 17pt;
+    color: rgb(56, 56, 56);
+    padding: 7px;
+}
