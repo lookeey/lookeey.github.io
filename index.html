@@ -1,13 +1,28 @@
 <!DOCTYPE html>
 <html>
     <head>
+
+        <meta name="author" content="BOMB"/>
+        <meta name="keywords" content="finance, fantom, blockchain, deflationary"/>
+        <meta name="description" content="The first deflationary token on the Fantom ecosystem."/>
+
+        <meta property="og:title" content="BOMB Token"/>
+        <meta property="og:description" content="The first deflationary token on the Fantom ecosystem."/>
+        <meta property="og:url" content="http://bombonftm.com"/>
+        <meta property="og:image" content="http://bombonftm.com/assets/banner.png"/>
+
+
         <title>Fantom BOMB Token Homepage</title>
         <link rel="stylesheet" href="styles/styles.css"></link>
         <script defer src="scripts/jquery_dev.js"></script>
+        <script type="application/javascript" defer src="scripts/js.cookie-2.2.1.min.js"></script>
         <script defer src="scripts/script.js"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
+        <button id="toggle" onclick="switchTheme()">
+            <img id=toggle src="assets/dark_toggle.svg"/>
+        </button>
         <div id="loading-screen">
             <div id="loading-bomb-container">
                 <img id="loading-flame" src="assets/flame.svg"/>
@@ -16,9 +31,6 @@
             </div>
         </div>
         <div id="page">
-            <div id="navbar-fixed">
-                
-            </div>
             <div id="content">
                 <div id="big-logo" class="wrapper">
                     <div id="navbar-top">
