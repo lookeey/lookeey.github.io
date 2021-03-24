@@ -23,6 +23,9 @@ function setTheme (theme) {
         setSrc("#loading-waves", "assets/waves_white.svg");
         setSrc("#bomb-logo", "assets/bomb-logo_white.svg");
         setSrc("#toggle img", "assets/dark_toggle.svg");
+        setSrc("#telegram", "assets/telegram_white.svg");
+        setSrc("#twitter", "assets/twitter_white.svg");
+        setSrc("#discord", "assets/discord_white.svg");
         document.documentElement.style.setProperty('--background-c', '#181818');
         document.documentElement.style.setProperty('--second-color', '#373737');
         document.documentElement.style.setProperty('--third-color', '#eeeeee');
@@ -33,6 +36,9 @@ function setTheme (theme) {
         setSrc("#loading-waves", "assets/waves.svg");
         setSrc("#bomb-logo", "assets/bomb-logo.svg");
         setSrc("#toggle img", "assets/light_toggle.svg");
+        setSrc("#telegram", "assets/telegram.svg");
+        setSrc("#twitter", "assets/twitter.svg");
+        setSrc("#discord", "assets/discord.svg");
         document.documentElement.style.setProperty('--background-c', '#f5f5f5');
         document.documentElement.style.setProperty('--second-color', '#ffffff');
         document.documentElement.style.setProperty('--third-color', '#373737');
