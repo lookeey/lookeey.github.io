@@ -161,24 +161,37 @@ body {
     position: absolute;
     text-align: center;
     left: 50%;
-    transform: translateX(-50%);
+    transform: translate(-50%, -50%);
     width: 70%;
+    padding-top: 0;
+    padding-bottom: 0;
+    top: 50%;
 }
 
 #where h3 {
     font-size:20pt;
+    margin: 10px
+}
+
+#where p {
+    margin: 15px;
 }
 
 #where a {
     font-size: 17pt;
     color: var(--third-color);
     padding: 7px;
+    overflow-wrap: break-word;
 }
 
 #social-media img {
     height: 30px;
     display: inline-block;
-    padding: 0 2vw;
+    padding: 0 2.6vw;
+}
+
+#social-media a {
+    display: table-cell;
 }
 
 #social-media {
@@ -229,5 +242,6 @@ body {
     #bomb-logo {
         width: 80%;
     }
+
 
 }

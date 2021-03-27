@@ -26,6 +26,7 @@ function setTheme (theme) {
         setSrc("#telegram", "assets/telegram_white.svg");
         setSrc("#twitter", "assets/twitter_white.svg");
         setSrc("#discord", "assets/discord_white.svg");
+        setSrc("#reddit", "assets/reddit_white.svg");
         document.documentElement.style.setProperty('--background-c', '#181818');
         document.documentElement.style.setProperty('--second-color', '#373737');
         document.documentElement.style.setProperty('--third-color', '#eeeeee');
@@ -39,6 +40,7 @@ function setTheme (theme) {
         setSrc("#telegram", "assets/telegram.svg");
         setSrc("#twitter", "assets/twitter.svg");
         setSrc("#discord", "assets/discord.svg");
+        setSrc("#reddit", "assets/reddit.svg");
         document.documentElement.style.setProperty('--background-c', '#f5f5f5');
         document.documentElement.style.setProperty('--second-color', '#ffffff');
         document.documentElement.style.setProperty('--third-color', '#373737');
