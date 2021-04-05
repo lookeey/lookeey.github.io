@@ -245,3 +245,13 @@ body {
 
 
 }
+
+#rugged {
+    margin: 0;
+    width: 90%;
+    position: absolute;
+    display: inline-block;
+    font-size: 45vw;
+    top: 50%;
+    transform: translateY(-50%);
+}
