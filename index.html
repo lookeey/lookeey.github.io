@@ -3,11 +3,11 @@
     <head>
 
         <meta name="author" content="BOMB"/>
-        <meta name="keywords" content="rugpull"/>
-        <meta name="description" content="The first rugpull token on the Fantom ecosystem."/>
+        <meta name="keywords" content="finance, fantom, blockchain, deflationary"/>
+        <meta name="description" content="The first deflationary token on the Fantom ecosystem."/>
 
         <meta property="og:title" content="BOMB Token"/>
-        <meta property="og:description" content="The first rugpull token on the Fantom ecosystem."/>
+        <meta property="og:description" content="The first deflationary token on the Fantom ecosystem."/>
         <meta property="og:url" content="https://fbomb.finance"/>
         <meta property="og:image" content="https://fbomb.finance/assets/banner.png"/>
 
@@ -26,6 +26,72 @@
         
     </head>
     <body>
-        <h3 id="rugged">RUGGED</h3>
+        <button id="toggle" onclick="switchTheme()">
+            <img id=toggle src="assets/dark_toggle.svg"/>
+        </button>
+        <div id="loading-screen">
+            <div id="loading-bomb-container">
+                <img id="loading-flame" src="assets/flame.svg"/>
+                <img id="loading-bomb" src="assets/bomb.svg"/>
+                <img id="loading-waves" src="assets/waves.svg"/>
+            </div>
+        </div>
+        <div id="page">
+            <div id="content">
+                <div id="big-logo" class="wrapper">
+                    <div id="navbar-top">
+                        <a id="what-btn" href="#what">What?</a>
+                        <a id="how-btn" href="#how">How?</a>
+                        <a id="where-btn" href="#where">Where?</a>
+                    </div>
+                    <img id="bomb-logo" src="assets/bomb-logo.svg">
+                    <div id="social-media">
+                        <a href="https://discord.gg/cDjmcHN7md"><img id="discord" src="assets/discord.svg"/></a>
+                        <a href="hhttps://t.me/fBOMBfinance"><img id="telegram" src="assets/telegram.svg"/></a>
+                        <a href="https://twitter.com/fBombFinance"><img id="twitter" src="assets/twitter.svg"/></a>
+                        <a href="https://www.reddit.com/r/fBombFinance/"><img id="reddit" src="assets/reddit.svg"/></a>
+                    </div>
+                </div>
+
+                <div id="what" class="wrapper">
+                    <div class="text">
+                        <h2 class="header">What?</h2>
+                        <p>BOMB on Fantom is a deflationary token. 1% of each BOMB transaction is burned. It is one of the first independently launched Opera tokens, and independent developers are presently working on several different use cases utilizing its deflationary nature. BOMB is a community-driven token which seeks to cement its place on the Fantom Opera blockchain.</p>
+                    </div>
+                    <img src="assets/what.png">
+                </div>
+
+                <div id="how" class="wrapper">
+                    <div class="text">
+                        <h2 class="header">How?</h2>
+                        <p>BOMB is made possible by the speed, security, and scalability of the Fantom Opera blockchain. Trading BOMB is near-free and instant. The Opera blockchain is perfect for the development of decentralized applications.</p>    
+                    </div>
+                    <img src="assets/how.png">
+                </div>
+
+                <div id="where" class="wrapper">
+                    <div class="text">
+                        <h2 class="header">Where?</h2>
+                        <p>You can get BOMB tokens by swapping your Fantom tokens on SushiSwap.</p>
+                        <h3>How can I do that?</h3>
+                        <p>You will need to create a Fantom Wallet, connect it to Metamask, and swap your FTM for BOMB on Sushiswap.
+                            <br/>
+                            Make sure to set at least 2% slippage, for the 1% burning.
+                        </p>
+                        <h3>Contract:</h3>
+                        <a href="https://ftmscan.com/token/0x8503eb4a136bdbeb323e37aa6e0fa0c772228378">0x8503eb4a136bdbeb323e37aa6e0fa0c772228378</a>
+                        <p>Useful links:</p>
+                        <a href="https://pwawallet.fantom.network/">Fantom Wallet official app</a>
+                        <br/>
+                        <a href="https://docs.fantom.foundation/tutorials/set-up-metamask">How to connect your fWallet to Metamask</a>
+                        <br/>
+                        <a href="https://fantom.foundation/blog/how-to-use-sushiswap-on-fantom/">How to use SushiSwap on Fantom</a>
+                        <br/>
+                        <a href="https://arcade.fbomb.finance">fBOMB Arcade</a>
+                        <br/>
+                    </div>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
