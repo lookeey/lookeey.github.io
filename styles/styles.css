@@ -15,6 +15,7 @@ body {
 }
 
 #loading-screen {
+    z-index: 1;
     background-color: var(--background-c);
     position: fixed;
     width: 100%;
