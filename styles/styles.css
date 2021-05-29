@@ -204,6 +204,10 @@ body {
     transform: translateX(-50%);
 }
 
+.text {
+    z-index: 1;
+}
+
 
 @media (max-width: 600px) {
 
