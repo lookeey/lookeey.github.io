@@ -156,13 +156,15 @@ body {
 
 #where {
     background-color: var(--second-color);
+    min-height: 100vh;
+    height: auto;
 }
 
 #where .text {
     position: absolute;
+    transform: translate(-50%, -50%);
     text-align: center;
     left: 50%;
-    transform: translate(-50%, -50%);
     width: 70%;
     padding-top: 0;
     padding-bottom: 0;
@@ -208,16 +210,31 @@ body {
     z-index: 1;
 }
 
+.arcade-2 {
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 30px;
+    background: white;
+    border: 2px solid black;
+    font-family: inherit;
+}
+
+.arcade-wrapper {
+    padding: 30px;
+}
 
 @media (max-width: 600px) {
 
     .wrapper h2 {
         font-size: 30pt;
-        margin: 0;
     }
 
     .wrapper p {
         font-size: 15pt;
+    }
+
+    .wrapper .text {
+        padding: 70px 40px;
     }
 
     #navbar-top a {
@@ -230,6 +247,10 @@ body {
         padding: 35px 0;
     }
 
+    #where {
+        min-height: 0;
+    }
+
     #where h3 {
         font-size:25pt;
     }
@@ -240,13 +261,22 @@ body {
         padding: 7px;
     }
 
-    .wrapper .text {
-        padding: 50px 40px;
+    #where .text {
+        position: inherit;
+        transform: none;
+        text-align: center;
+        width: 100%;
+        padding: 0;
+        left: 0;
+        top: 0;
+    }
+
+    #where .text h2 {
+        padding-top: 20px;
     }
 
     #bomb-logo {
         width: 80%;
     }
-
 
 }
